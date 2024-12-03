@@ -1,9 +1,9 @@
-const storyElement = document.getElementById('story');
-const choicesElement = document.getElementById('choices');
+ storyElement = document.getElementById('story');
+ choicesElement = document.getElementById('choices');
 
-let currentStage = 0;
+ currentStage = 0;
 
-const storyData = {
+ storyData = {
     0: {
         text: "Você chegou a um castelo abandonado. O que você faz?",
         choices: [
